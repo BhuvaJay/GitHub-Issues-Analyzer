@@ -1,0 +1,104 @@
+.app-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1400px;
+  }
+  
+  .app-title {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e5e5ea;
+    color: #3498ff;
+  }
+  
+  .input-panel {
+    margin-bottom: 30px;
+  }
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: #f44336;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #ffebee;
+    border-radius: 4px;
+  }
+  
+  .results-panel {
+    margin-top: 20px;
+  }
+  
+  .results-panel h2 {
+    color: #34c3ff;
+    margin-bottom: 15px;
+  }
+  
+  .results-panel h3 {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #575757;
+  }
+  
+  .results-panel h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #6a6a6a;
+  }
+  
+  .metrics-grid {
+    margin: 0 -10px;
+  }
+  
+  .metric-card {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .status-counts {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  .status-counts strong {
+    font-weight: 600;
+    color: #575757;
+  }
+  
+  .average-rate {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #3498ff;
+    padding: 20px 0;
+  }
+  
+  .show-issues-btn {
+    display: block;
+    margin: 30px auto;
+  }
+  
+  .status-open {
+    color: #4caf50;
+    font-weight: 600;
+  }
+  
+  .status-closed {
+    color: #f44336;
+    font-weight: 600;
+  }
+  
+  /* Make tables responsive */
+  .rs-table {
+    min-width: 100%;
+  }
+  
+  /* Modal styling */
+  .rs-modal-full .rs-modal-dialog {
+    max-width: 95%;
+  }
